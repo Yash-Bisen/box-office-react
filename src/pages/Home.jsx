@@ -46,8 +46,7 @@ const Home = () => {
 
         <form onSubmit={onSearch}>
         <input type="text" value={SearchStr} onChange={onSearchInputChange}/>
-        <button type="button">Search
-        </button>
+        <button type="submit">Search</button>
        </form>
 
        <div>{renderApiData()}</div>
