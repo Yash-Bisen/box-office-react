@@ -10,6 +10,7 @@ function App() {
     <Routes>
     <Route path="/" element={<Home />}/>
     <Route path="/Starred" element={<Starred />}/>
+    <Route path="*" element={<div>No Match Found</div>} />
       {/* <Route path="/" element={<App />}>
         <Route index element={<Home />} />
         <Route path="teams" element={<Teams />}>
